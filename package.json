@@ -49,6 +49,7 @@
     "api-extractor:build": "yarn build:esm && yarn api-extractor",
     "api-extractor:ci": "node scripts/apiExtractor.js",
     "postversion": "git push && git push origin v$npm_package_version",
+    "prepare": "yarn build",
     "prepublishOnly": "yarn && yarn lint:fix && yarn type && yarn test && yarn build",
     "bundlewatch": "yarn build:modern && bundlewatch",
     "start:app": "yarn build:esm && yarn link && yarn --cwd node_modules/react link && yarn --cwd ./app link react react-hook-form && yarn --cwd ./app && yarn --cwd ./app run dev"

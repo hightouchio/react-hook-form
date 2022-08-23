@@ -1,5 +1,5 @@
 {
-  "name": "@hightouch/react-hook-form",
+  "name": "@hightouchio/react-hook-form",
   "description": "Performant, flexible and extensible forms library for React Hooks",
   "version": "7.34.2",
   "main": "dist/index.cjs.js",
@@ -65,7 +65,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-hook-form/react-hook-form"
+    "url": "https://github.com/hightouchio/react-hook-form"
   },
   "homepage": "https://www.react-hook-form.com",
   "author": "<bluebill1049@hotmail.com>",
